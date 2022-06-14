@@ -53,7 +53,7 @@ header ul li a:hover {
 
 /* Main Styles */
 .main-item {
-    background-image: url('Images/home-background.jpg');
+    background-image: url('images/home-background.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
