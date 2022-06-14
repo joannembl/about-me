@@ -6,6 +6,7 @@
 }
 /* Header Styles */
 header {
+    /*background-image: linear-gradient(lightblue, white);*/
     background-color: #F6F6F6;
     width: 100%;
     height: 100px;
@@ -63,18 +64,15 @@ header ul li a:hover {
     flex-direction: column;
 }
 
-.main-item img {
-    width: 100%;
-}
-
 .text {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #F6F6F6;
     border-radius: 0.5rem;
-    color: gray;
+    background-color: lightgray;
+    color: black;
+    font-size: 1.5rem;
 }
 
 /* Footer Styles */
@@ -173,7 +171,7 @@ footer p {
 }
 
 .recommendations ul li{
-    background-color: lightgray;
+    background-color: lightgrey;
     border-radius: 0.25rem;
     list-style: none;
     width: 25%;
@@ -185,6 +183,10 @@ footer p {
     text-align: center;
     padding: 10px;
     box-shadow: 2px 3px 3px gray;
+}
+
+.recommendations i {
+    color: grey;
 }
 
 .projects {
