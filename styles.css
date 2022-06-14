@@ -52,6 +52,11 @@ header ul li a:hover {
 
 /* Main Styles */
 .main-item {
+    background-image: url('Images/home-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,6 +72,9 @@ header ul li a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #F6F6F6;
+    border-radius: 0.5rem;
+    color: gray;
 }
 
 /* Footer Styles */
@@ -176,4 +184,45 @@ footer p {
     flex-direction: column;
     text-align: center;
     padding: 10px;
+    box-shadow: 2px 3px 3px gray;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.projects h1 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.projects ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.projects ul li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.projects img {
+    width: 300px;
+    height: 200px;
+}
+
+.projects img:hover {
+    transition: 0.5s;
+    opacity: 25%;
 }
