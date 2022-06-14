@@ -39,7 +39,7 @@ ul li a {
     text-decoration: none;
 }
 
-ul li a:hover {
+header ul li a:hover {
     color: black;
     border-bottom: 0.1rem solid lightgray;
 }
@@ -51,12 +51,74 @@ ul li a:hover {
 }
 
 /* Main Styles */
-.background {
+.main-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-item img {
+    width: 100%;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Footer Styles */
+footer {
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+i {
+    font-size: 2rem;
+    padding: 10px;
+}
+
+footer ul li i:hover {
+    color: black;
+}
+
+footer p {
+    color: gray;
+    padding: 10px;
+}
+
+/* About Styles Page */
+.about-me {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.me-image {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.background img {
-    width: 100%;
+.about-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.about-text p {
+    font-size: 1.25rem;
+}
+
+.about-text h1 {
+    font-size: 2rem;
 }
