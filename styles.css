@@ -110,6 +110,7 @@ header ul li a:hover {
     color: white;
     font-size: 1.5rem;
     z-index: 1;
+    text-align: center;
 }
 
 /* Footer Styles */
@@ -157,7 +158,7 @@ footer p {
 /* About Styles */
 .about-me {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding-top: 100px;
     flex-wrap: wrap;
@@ -170,7 +171,9 @@ footer p {
 }
 
 .me-image img {
-    border-radius: 100%;
+    padding: 10px;
+    border-radius: 5rem;
+    width: 55%;
 }
 
 .about-text {
@@ -179,6 +182,7 @@ footer p {
     align-items: center;
     flex-direction: column;
     width: 50%;
+    text-align: center;
 }
 
 .about-text p {
@@ -187,6 +191,52 @@ footer p {
 
 .about-text h1 {
     font-size: 2rem;
+}
+
+.more-abt-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.more-abt-me h1 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.more-abt-me ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.more-abt-me ul li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: lightgray;
+    box-shadow: 3px 4px 4px gray;
+}
+
+.more-abt-me p {
+    padding-top: 10px;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+}
+
+.more-abt-me img {
+    width: 300px;
+    height: 200px;
 }
 
 /* Portfolio Styles*/
@@ -264,10 +314,12 @@ footer p {
     flex-direction: column;
     text-align: center;
     padding: 10px;
+    margin: 10px;
 }
 
 .projects p {
     width: 300px;
+    height: 100px;
 }
 
 .projects img {
@@ -277,5 +329,6 @@ footer p {
 
 .projects img:hover {
     transition: 0.5s;
-    opacity: 25%;
+    opacity: 50%;
+    box-shadow: 3px 4px 4px gray;
 }
