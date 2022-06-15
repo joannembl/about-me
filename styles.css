@@ -24,6 +24,10 @@
     .me-image img {
         width: 75%;
     }
+
+    .about-me .about-text {
+        width: 75%;
+    }
 }
 
 /* Header Styles */
