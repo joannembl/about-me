@@ -219,7 +219,7 @@ footer p {
 }
 
 .me-image img {
-    padding: 10px;
+    padding-top: 20px;
     border-radius: 5rem;
     width: 55%;
 }
@@ -229,7 +229,7 @@ footer p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50%;
+    width: 45%;
     text-align: justify;
 }
 
